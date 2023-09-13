@@ -18,15 +18,17 @@ The commands in terminal 2 should be run now
 
 	truffle migrate –network geth
 	truffle console –network geth
-	To obtain a Smart contract instance 
- let kyc = await KYC.deployed()
+To obtain a Smart contract instance 
+	let kyc = await KYC.deployed()
 
 All the functions in the Smart Contract can be run using this instance 
 Eg: kyc.addRequest(‘Ramya’, ‘Coimbatore’)
 
 Terminal 2:
+
 I have a blockchain deployed in my ubuntu machine at the directory ethpvtnet
 I implement the below commands to start mining in my Blockchain
+
 	> cd ethpvtnet
 	> geth –datadir ./datadir –networkid 2019 –http –http.port 30304 –allow-insecure-unlock console
 	> personal.newAccount(‘Ramya’) to create new Accounts on the Blockchain
