@@ -7,7 +7,7 @@ We need 2 terminals to implement the Truffle Deployment of the KYC Smart Contrac
 
 Terminal 1:
 
-`	truffle init`
+	truffle init
 `	truffle compile`
 
 The below 2 commands need to be run to use the OpenZeppelin contracts in the KYC Contract
