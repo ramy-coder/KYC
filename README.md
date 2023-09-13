@@ -27,8 +27,8 @@ Eg: kyc.addRequest(‘Ramya’, ‘Coimbatore’)
 Terminal 2:
 I have a blockchain deployed in my ubuntu machine at the directory ethpvtnet
 I implement the below commands to start mining in my Blockchain
-	cd ethpvtnet
-	geth –datadir ./datadir –networkid 2019 –http –http.port 30304 –allow-insecure-unlock console
-	personal.newAccount(‘Ramya’) to create new Accounts on the Blockchain
-	miner.setEtherbase(‘Account ID’)
-	miner.start()
+	> cd ethpvtnet
+	> geth –datadir ./datadir –networkid 2019 –http –http.port 30304 –allow-insecure-unlock console
+	> personal.newAccount(‘Ramya’) to create new Accounts on the Blockchain
+	> miner.setEtherbase(‘Account ID’)
+	> miner.start()
